@@ -54,10 +54,16 @@ python-dotenv
 langchain_community
 langchain_openai
 
+## Or install all at once using:
+
+pip install -r requirements.txt
+
+
 ## run app
 uvicorn app.main:app --reload
 
 
 ## run frontend
+
 
 streamlit run sapp.py
